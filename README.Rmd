@@ -17,6 +17,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/treynolds-conestoga/Automated.Tasks/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/treynolds-conestoga/Automated.Tasks/actions/workflows/R-CMD-check.yaml)
+[![Travis build status](https://travis-ci.com/treynolds-conestoga/Automated.Tasks.svg?branch=master)](https://travis-ci.com/treynolds-conestoga/Automated.Tasks)
 <!-- badges: end -->
 
 The goal of Automated.Tasks is to ...

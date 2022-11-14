@@ -19,13 +19,20 @@
 ## to change the name in the app_sys() function in app_config.R /!\
 ##
 golem::fill_desc(
-  pkg_name = "Automated.Tasks", # The Name of the package containing the App
-  pkg_title = "PKG_TITLE", # The Title of the package containing the App
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App
-  author_first_name = "AUTHOR_FIRST", # Your First Name
-  author_last_name = "AUTHOR_LAST", # Your Last Name
-  author_email = "AUTHOR@MAIL.COM", # Your Email
-  repo_url = NULL # The URL of the GitHub Repo (optional)
+  # The Name of the package containing the App
+  pkg_name = "Automated.Tasks",
+  # The Title of the package containing the App
+  pkg_title = "Automated Task App",
+  # The Description of the package containing the App
+  pkg_description = "An App to Monitor Tasks Placed into Production",
+  # Your First Name
+  author_first_name = "Troy",
+  # Your Last Name
+  author_last_name = "Reynolds",
+  # Your Email
+  author_email = "treynolds@victoryrenewables.com",
+  # The URL of the GitHub Repo (optional)
+  repo_url = 'https://github.com/treynolds-conestoga/Automated.Tasks'
 )
 
 ## Set {golem} options ----
@@ -36,11 +43,11 @@ golem::install_dev_deps()
 
 ## Create Common Files ----
 ## See ?usethis for more information
-usethis::use_mit_license("Golem User") # You can set another license here
+usethis::use_mit_license("Troy Reynolds") # You can set another license here
 usethis::use_readme_rmd(open = FALSE)
 # Note that `contact` is required since usethis version 2.1.5
 # If your {usethis} version is older, you can remove that param
-usethis::use_code_of_conduct(contact = "Golem User")
+usethis::use_code_of_conduct(contact = "Troy Reynolds")
 usethis::use_lifecycle_badge("Experimental")
 usethis::use_news_md(open = FALSE)
 
@@ -53,7 +60,7 @@ golem::use_recommended_tests()
 
 ## Favicon ----
 # If you want to change the favicon (default is golem's one)
-golem::use_favicon() # path = "path/to/ico". Can be an online file.
+golem::use_favicon("./hex-Automated.png") # path = "path/to/ico". Can be an online file.
 # golem::remove_favicon() # Uncomment to remove the default favicon
 
 ## Add helper functions ----
